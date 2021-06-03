@@ -1,0 +1,2 @@
+ARRIBA = 'arriba'
+ABAJO = 'abajo'

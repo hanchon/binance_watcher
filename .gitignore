@@ -10,3 +10,4 @@ __pycache__/
 *$py.class
 *.pyc
 dump.rdb
+run.sh
