@@ -1,0 +1,12 @@
+.venv
+venv
+.env
+env
+.pytest_cache
+# Generic ignores
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+dump.rdb

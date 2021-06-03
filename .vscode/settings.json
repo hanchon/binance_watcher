@@ -1,0 +1,26 @@
+{
+    "python.pythonPath": ".venv/bin/python3",
+    "python.formatting.provider": "yapf",
+    "files.exclude": {
+        "/.git": true,
+        "/.svn": true,
+        "/.hg": true,
+        "/CVS": true,
+        "/.DS_Store": true,
+        "/*.pyc": {
+            "when": "$(basename).py"
+        },
+        "**/pycache": true,
+        "**/*pycache*": true,
+    },
+    "editor.formatOnSave": true,
+    "python.formatting.yapfArgs": [
+        "--style={ based_on_style: pep8, column_limit: 120 }"
+    ],
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+}
