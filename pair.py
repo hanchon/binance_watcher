@@ -27,6 +27,8 @@ class Pair:
         if time > self.last_ema:
             self.emas.add_value(value)
             self.last_ema = time
+            return True
+        return False
 
     def tendency_has_changed(self):
         res = False
